@@ -10,7 +10,6 @@ describe "Static pages" do
     it { should have_content ('App20161103') }
     it { should have_title (full_title('')) }
     it { should_not have_title('| Home') }
-
   end
 
   describe "Help page" do
@@ -33,7 +32,6 @@ describe "Static pages" do
 
     it { should have_content('Заметки') }
     it { should have_title(full_title('Notes')) }
-
   end
 
 end
